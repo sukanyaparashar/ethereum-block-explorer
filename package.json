@@ -1,0 +1,19 @@
+{
+  "name": "block-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.1.1",
+    "solc": "^0.8.7-fixed",
+    "web3": "^1.5.2"
+  }
+}

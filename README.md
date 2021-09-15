@@ -42,6 +42,8 @@ This project includes a simple solidity hello smart contract (inside the /contra
 3) From a different terminal, run the test -
 	$ npm run test
 
+NOTE: To run the automated test please run the ganache-cli freshly everytime before running the test.
+
 ## Run the Backend API:
 
 The code includes the network for conecting to ganache-cli. If you need to connect to the Testnets using Infura, then change the /ethereum/main.js file by replacing the ethNetwork variable with the Infura url.
